@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.box {
+  height: 400px;
+  width: 400px;
+  background-color: blue;
+  transition-duration: 600ms;
+  transition-property: width, background-color;
+  transition-timing-function: ease-in-out;
+  transition-delay: 5000ms;
+}
+
+.box:hover {
+  width: 600px;
+  background-color: red;
+}
