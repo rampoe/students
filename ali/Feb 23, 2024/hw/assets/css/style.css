@@ -1,13 +1,14 @@
 @charset "utf-8";
 
 *,
-::before,
-::after {
-  font-family: "Nunito Sans", sans-serif;
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
-  background-color: #f3f7fa
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #f3f7fa;
 }
 
 header {
@@ -28,14 +29,14 @@ ul {
 }
 
 li:hover {
-  color: rgb(24, 227, 24);
+  color: rgb(13, 172, 13);
   cursor: pointer;
 }
 
 header button {
   border: none;
   border-radius: 5px;
-  margin-left: 10px;
+  margin-inline-start: 10px;
   padding: 10px 20px;
   font-weight: 800;
 }
@@ -52,7 +53,7 @@ header button {
 
 .first-button i,
 .second-button i {
-  margin-right: 5px;
+  margin-inline-end: 5px;
 }
 
 .second-button {
@@ -70,20 +71,21 @@ header button {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  margin-top: 200px;
+  margin-top: 5%;
 }
 
 .first-main h2 {
   font-size: 70px;
+  margin-block: 0;
 }
 
 .main button {
   border: none;
   border-radius: 5px;
-  margin-left: 10px;
+  margin-inline-start: 10px;
   padding: 10px 20px;
   font-weight: 800;
-  margin-top: 20px;
+  margin-block-start: 20px;
 }
 
 .third-button {
@@ -98,7 +100,7 @@ header button {
 
 .third-button i,
 .fourth-button i {
-  margin-right: 5px;
+  margin-inline-end: 5px;
 }
 
 .fourth-button {
