@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* базовые селекторы */
+/* h2 {
+  color: red;
+} */
+
+/* p {
+  color: blue;
+} */
+
+/* селекторы классов */
+/* .text-red {
+  color: red;
+} */
+
+/* .background-yellow {
+  background-color: yellow;
+} */
+
+/* идентификаторы */
+/* #main-heading {
+  color: blueviolet;
+} */
+
+/* совмещаем селекторы */
+/* h2.text-red {
+  color: red;
+} */
+
+/* h2,
+p {
+  color: rgb(0, 218, 0);
+} */
+
+/* .text-red,
+.background-yellow {
+  font-size: 20px;
+} */
+
+/* h1,
+h2.text-red {
+  color: red;
+} */
