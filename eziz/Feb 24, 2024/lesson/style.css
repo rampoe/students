@@ -55,6 +55,14 @@ h2.text-red {
   color: violet;
 } */
 
-h2>i {
+/* h2>i {
   color: violet;
+} */
+
+/* p+h2 {
+  color: blue;
+} */
+
+p~h2 {
+  color: blueviolet;
 }
