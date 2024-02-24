@@ -42,3 +42,19 @@ p {
 h2.text-red {
   color: red;
 } */
+
+/* p b {
+  color: violet;
+} */
+
+/* p i {
+  color: violet;
+} */
+
+/* p>i {
+  color: violet;
+} */
+
+h2>i {
+  color: violet;
+}
