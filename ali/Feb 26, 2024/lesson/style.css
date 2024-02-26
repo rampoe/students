@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -81,4 +81,22 @@ table {
 #root,
 #__next {
   isolation: isolate;
+} */
+
+/* Объединение селекторов */
+/* p.blue {
+  color: blue;
+} */
+
+/* headeriň göne içindäki a */
+/* header>a {
+  color: red;
+  text-decoration: none;
+} */
+
+/* headeriň içinde lýuboý ýerdäki a */
+/* header a {} */
+
+.btn.btn-primary {
+  background-color: aqua;
 }
