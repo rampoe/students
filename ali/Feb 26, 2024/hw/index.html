@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Rahman Begjanov" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <title>Buttons</title>
+    <style type="text/css">
+      /* Bu CSS'i üýtgetmeli däl! */
+      @charset "UTF-8";
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        background: transparent;
+      }
+
+      :root {
+        font-size: 62.5%;
+
+        --danger-clr: red;
+        --primary-clr: blue;
+        --warning-clr: orange;
+        --success-clr: green;
+      }
+
+      html,
+      body {
+        height: 100%;
+      }
+
+      body {
+        line-height: 1.5;
+        -webkit-font-smoothing: antialiased;
+        font-size: 1.6rem;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 20px;
+      }
+
+      img,
+      picture,
+      video,
+      canvas,
+      svg {
+        display: block;
+        max-width: 100%;
+      }
+
+      input,
+      button,
+      textarea,
+      select {
+        font: inherit;
+      }
+
+      p,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        overflow-wrap: break-word;
+      }
+
+      ol,
+      ul {
+        list-style: none;
+      }
+
+      blockquote,
+      q {
+        quotes: none;
+      }
+
+      blockquote::before,
+      blockquote::after,
+      q::before,
+      q::after {
+        content: "";
+        content: none;
+      }
+
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+
+      #root,
+      #__next {
+        isolation: isolate;
+      }
+
+      .btn {
+        border: 2px solid;
+        padding: 0.6rem 1.2rem;
+        border-radius: 1rem;
+      }
+
+      .btn-primary {
+        border-color: var(--primary-clr);
+        color: var(--primary-clr);
+      }
+
+      .btn-danger {
+        border-color: var(--danger-clr);
+        color: var(--danger-clr);
+      }
+
+      .btn-success {
+        border-color: var(--success-clr);
+        color: var(--success-clr);
+      }
+
+      .btn-warning {
+        border-color: var(--warning-clr);
+        color: var(--warning-clr);
+      }
+
+      /* Şu ýere täze CSS goşup, button'lara owadan hover effect'ler bermeli */
+
+      .btn:hover {
+        color: white;
+        cursor: pointer;
+        transition: background-color 250ms;
+      }
+
+      .btn-primary:hover {
+        background-color: blue;
+      }
+
+      .btn-danger:hover {
+        background-color: red;
+      }
+
+      .btn-success:hover {
+        background-color: green;
+      }
+
+      .btn-warning:hover {
+        background-color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="btn btn-primary">Button Primary</button>
+    <button class="btn btn-danger">Button Danger</button>
+    <button class="btn btn-success">Button Success</button>
+    <button class="btn btn-warning">Button Warning</button>
+  </body>
+</html>
