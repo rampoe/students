@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #f3f7fa;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header .logo {
+  height: 40px;
+}
+
+.header .menu {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  gap: 30px;
+}
+
+.header .buttons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header .buttons button {
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.header .buttons .contribute {
+  background-color: #f5b759;
+}
+
+.header .buttons .sign-in {
+  background-color: #005ad4;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .h1 {
+  font-size: 40px;
+}
+
+.hero .forest {
+  width: 540px;
+}
+
+.hero .right,
+.hero .left {
+  width: 35%;
+}
+
+.hero .left p {
+  color: rgba(42, 53, 79, .7);
+  font-size: 24px;
+}
+
+.hero .left button {
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.hero .left .our-mission {
+  background-color: #11ab7c;
+  color: white;
+}
+
+.hero .left .download-report {
+  color: #506690;
+  background-color: white;
+}
+
+.hero .buttons {
+  display: flex;
+  gap: 20px;
+}
