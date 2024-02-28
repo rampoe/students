@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: red;
+}
+
+a:focus {
+  color: blueviolet;
+  outline: none;
+}
+
+/* .menu__item:last-child {
+  color: blue;
+}
+
+.menu__item:first-child {
+  color: red;
+} */
+
+/* .menu__item:last-of-type {
+  color: blue;
+}
+
+.menu__item:first-of-type {
+  color: red;
+} */
+
+/* p:first-child {
+  color: red;
+} */
+
+/* p:first-of-type {
+  color: blue;
+} */
+
+/* h1:first-child {
+  color: red;
+} */
+
+/* h1:first-of-type {
+  color: red;
+} */
+
+/* .inner:first-child {
+  color: blue;
+} */
+
+/* .inner:first-of-type {
+  color: blue;
+} */
+
+/* p:only-child {
+  color: red;
+} */
