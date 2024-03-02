@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  /* background-image: linear-gradient(to right, red, rgba(255, 0, 0, 0)); */
+  background-image: radial-gradient(red 5%, yellow 10%, orange 50%);
+}
