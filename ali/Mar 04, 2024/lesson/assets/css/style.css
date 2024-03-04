@@ -1,11 +1,47 @@
 @charset "UTF-8";
 
-h1 {
+/* h1 {
   color: red;
 }
 
 @media (min-width: 800px) {
   h1 {
     color: blue;
+  }
+} */
+
+nav {
+  & ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  & .dropdown {
+    display: none;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding: 20px;
+
+    & ul {
+      display: none;
+    }
+
+    & .dropdown {
+      display: block;
+    }
   }
 }
