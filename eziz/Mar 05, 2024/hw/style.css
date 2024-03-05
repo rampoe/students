@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #f3f7fa;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-block: 20px;
+}
+
+.header .menu {
+  display: flex;
+  gap: 30px;
+}
+
+.header .buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.header .buttons .contribute,
+.header .buttons .sign-in {
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.header .buttons .contribute {
+  background-color: #f5b759;
+}
+
+.header .buttons .sign-in {
+  background-color: #005ad4;
+}
+
+.center {
+  text-align: center;
+}
+
+.center1 {
+  margin-bottom: 30px;
+}
+
+.p1 {
+  color: #11ab7c;
+  margin-bottom: 100px;
+  font-weight: 600;
+}
+
+.ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 30px;
+  color: #66799e;
+}
+
+.p {
+  text-align: center;
+  margin-top: 50px;
+  color: #66799e;
+}
+
+/* hr {
+  width: 900px;
+} */
+
+.cyzyk {
+  height: 1px;
+  width: 900px;
+  background-color: rgba(0, 0, 0, 0.227);
+  margin-inline: auto;
+}
+
+.div1 {
+  margin: 100px;
+  font-size: 30px;
+}
+
+.our {
+margin-bottom: 100px;
+border: none;
+border-radius: 30px;
+background-color: #11ab7c;
+color: white;
+padding: 10px;
+}
+
+.our:hover {
+  background-color: #0e8460;
+}
