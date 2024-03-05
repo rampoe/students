@@ -72,10 +72,6 @@ body {
   color: #66799e;
 }
 
-/* hr {
-  width: 900px;
-} */
-
 .cyzyk {
   height: 1px;
   width: 900px;
@@ -89,12 +85,12 @@ body {
 }
 
 .our {
-margin-bottom: 100px;
-border: none;
-border-radius: 30px;
-background-color: #11ab7c;
-color: white;
-padding: 10px;
+  margin-bottom: 100px;
+  border: none;
+  border-radius: 30px;
+  background-color: #11ab7c;
+  color: white;
+  padding: 10px;
 }
 
 .our:hover {
