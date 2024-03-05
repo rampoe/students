@@ -1,1 +1,57 @@
 @charset "UTF-8";
+
+body {
+  background-color: #efefef;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.container .card {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .card .primary-icon {
+  font-size: 50px;
+  color: gray;
+}
+
+.container .card .cost {
+  color: grey;
+}
+
+.container .card h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.container .card .bi-lightning-charge-fill {
+  color: rgb(0, 101, 201);
+  font-size: 30px;
+}
+
+.dollar {
+  display: inline-block;
+}
+
+.san {
+  color: green;
+  font-size: 40px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.btn-primary {
+  background-color: rgb(0, 101, 201);
+}
