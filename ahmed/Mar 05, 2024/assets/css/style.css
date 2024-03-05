@@ -1,18 +1,87 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/* body {
-  margin: 0;
+body {
   padding: 0;
+  margin: 0;
 }
 
-.div1 {
+.header {
   display: flex;
-  background-color: orange;
-  border: 5px solid red
-} */
+  justify-content: space-between;
+  align-items: center;
+}
+
+@keyframes underline-on-hover {}
+
+.header .nav .menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  font-size: 20px;
+}
+
+.header .nav .menu li {
+  position: relative;
+  cursor: pointer;
+  transition: 2s ease-in-out;
+}
+
+
+.header .nav .menu li::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: black;
+  transform: scaleX(0);
+  transition: transform 0.25s ease-out;
+  transform-origin: bottom right;
+}
+
+.header .nav .menu li:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.header .get-started {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.header .get-started:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+
+.header {
+  padding: 10px 30px;
+}
+
+.header .h1 {
+  font-family: "Madimi One", sans-serif;
+}
+
+.main {
+  padding: 0 30px;
+}
