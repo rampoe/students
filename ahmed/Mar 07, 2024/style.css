@@ -1,3 +1,13 @@
-h1 {
-  font-family: "Dancing Script", cursive;
+h1,
+p {
+  width: 400px;
+  margin-inline: auto;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: 0;
+  border-radius: 10px;
 }
