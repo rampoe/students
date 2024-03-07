@@ -15,3 +15,13 @@ a:visited {
 a:visited:hover {
   color: purple;
 } */
+
+/* a:focus {
+  color: red;
+  outline: none;
+}
+
+input:focus {
+  background-color: blue;
+  color: white;
+} */
