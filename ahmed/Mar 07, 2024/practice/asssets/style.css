@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 40px;
+  font-size: 18px
+}
+
+.menu li {
+  color: #767676;
+  ;
+}
+
+.menu .t1 {
+  color: #333;
+}
+
+.m-div {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 40px;
+  margin: 0px;
+  ;
+}
+
+.m-but {
+  border-radius: 20px;
+  background-color:
+    #04ddb2;
+  color: white;
+  border: none;
+  padding-inline: 30px;
+  font-size: 18px;
+
+}
+
+.h {
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+
+}
+
+h1 span {
+  color: #04ddb2;
+
+}
+
+.h p {
+  font-size: 28px;
+  padding-inline: 450px;
+}
