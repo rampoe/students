@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 40px;
+  font-size: 18px
+}
+
+.menu li {
+  color: #767676;
+  ;
+}
+
+.menu .t1 {
+  color: #333;
+}
+
+.m-div {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 40px;
+  margin: 0px;
+  ;
+}
+
+.m-but {
+  border-radius: 20px;
+  background-color:
+    #04ddb2;
+  color: white;
+  border: none;
+  padding-inline: 30px;
+  font-size: 18px;
+
+}
+
+.h {
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+
+}
+
+h1 span {
+  color: #04ddb2;
+
+}
+
+.h p {
+  font-size: 28px;
+  padding-inline: 450px;
+}
+
+.h .smth {
+  text-align: center;
+  padding-inline: 650px;
+  font-size: 75px;
+  margin-top: 200px;
+}
+
+.h .knopka-2 {
+  border-radius: 30px;
+  margin: 25px;
+  margin-bottom: 110px;
+  border: none;
+  padding: 16px;
+  padding-inline: 45px;
+  background-color: #04ddb2;
+  color: white;
+  font-size: 25px;
+}
+
+hr {
+  inline-size: 65%;
+}
+
+.s-div .u-2 {
+  font-size: 25px;
+  list-style: none;
+  display: flex;
+  gap: 165px;
+}
+
+.s-div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+
+}
+
+.icon-b {
+  width: 50px;
+}
+
+.divs .bird-icon {
+  border: none;
+  border-radius: 30px;
+  background-color: #04ddb2;
+  width: 45px;
+  padding: 23px;
+
+}
+
+.divs .sms {
+  border: none;
+  border-radius: 30px;
+  background-color: #04ddb2;
+  width: 45px;
+  padding: 23px;
+  margin: 20px;
+}
+
+.divs .youtube {
+  border: none;
+  border-radius: 30px;
+  background-color: #04ddb2;
+  width: 45px;
+  padding: 23px;
+}
+
+.s-stroka .u-3 {
+  list-style: none;
+  justify-content: center;
+  display: flex;
+  font-size: 25px;
+  gap: 100px;
+  margin-right: 460px;
+}
+
+.s-div .s-svg {
+  margin-right: 70px;
+}
