@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  border: none;
+  border-radius: 20px;
+  background-color: #04ddb2;
+  padding: 10px 20px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #04ad8b;
+}
+
+.display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 40px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 40px;
+  font-size: 18px;
+}
+
+.menu li {
+  color: #767676;
+}
+
+.menu .li {
+  color: #333;
+}
+
+.center {
+  text-align: center;
+}
+
+h1 {
+  font-size: 56px;
+  margin-block-end: 0.3rem;
+}
+
+.center p {
+  font-size: 28px;
+  margin-block-start: 10px;
+}
+
+h1 span {
+  color: #04ddb2;
+}
+
+.train {
+  text-align: center;
+}
+
+.trai {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+hr {
+  margin-block: 50px;
+  width: 80%;
+}
+
+ul {
+  list-style: none;
+}
+
+.dis {
+  display: flex;
+  justify-content: center;
+  margin-inline: 100px;
+  gap: 60px;
+}
+
+.li {
+  font-weight: bold;
+}
+
+.li2 {
+  color: #767676;
+}
+
+.ul li {
+  margin-block: 20px;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
+
+.li3 {
+  padding: 10px;
+}
