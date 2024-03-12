@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+button {
+  border: 5px #47B2E4 solid;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: white;
+  background-color: #37517E;
+  transition: background-color 500ms;
+}
+
+button:hover {
+  background-color: #47B2E4;
+}
