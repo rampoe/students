@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* *,
+*::before,
+*:after {
+  box-sizing: border-box;
+} */
+
+.content-box {
+  box-sizing: content-box;
+  width: 500px;
+  background-color: aqua;
+  border: 5px solid red;
+  padding: 20px;
+}
+
+.ruler {
+  width: 500px;
+  height: 50px;
+  background-color: grey;
+}
+
+.border-box {
+  box-sizing: border-box;
+  width: 500px;
+  background-color: orange;
+  border: 5px solid red;
+  padding: 20px;
+}
