@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+button {
+  border: none;
+  border-radius: 20px;
+  background-color: #04ddb2;
+  color: white;
+  cursor: pointer;
+  transition: background-color 1000ms;
+}
+
+button:hover {
+  background-color: #05ae8c;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.li3 {
+  padding: 9px;
+}

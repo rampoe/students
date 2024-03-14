@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #37517E;
+
+
+}
+
+.but {
+  background-color: #37517E;
+  border: 3px solid rgb(71, 178, 228);
+  border-radius: 50px;
+  padding: 10px 20px;
+  color: white;
+  transition: background-color 300ms;
+}
+
+.but:hover {
+  background-color: rgb(71, 178, 228)
+}
