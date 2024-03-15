@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: #6F4E37;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 300px;
+  height: 65px;
+}
+
+.header i {
+  color: white;
+  font-size: 24px;
+}
+
+.bi-search {
+  margin-left: 10px;
+}
