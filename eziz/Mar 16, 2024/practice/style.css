@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.get {
+  text-align: center;
+  background-color: #DB7F67;
+  margin: 0;
+  color: white;
+  padding-block: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.menu {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+.logo p {
+  margin: 0;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
+
+
+.one {
+  background-color: #ffc6b8;
+  padding: 100px;
+}
+
+.two {
+  font-size: 50px;
+  color: rgb(55, 49, 49);
+}
+
+.shop {
+  border: 0;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: white;
+  background-color: rgb(55, 49, 49);
+  cursor: pointer;
+  transition: background-color 1000ms;
+  margin-right: 10px;
+}
+
+.book {
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 1000ms;
+}
+
+.shop:hover {
+  border: none;
+  background-color: #DB7F67;
+}
+
+.book:hover {
+  border: none;
+  color: white;
+  background-color: #DB7F67;
+}
+
+.food {
+  display: flex;
+  flex-direction: column;
+}
+
+.arrow {
+  border: 0;
+  border-radius: 20px;
+  padding: 10px 55px;
+  align-items: center;
+}
+
+.cart {
+  display: inline-block;
+  background-color: #694D43;
+  color: white;
+  padding: 30px;
+  border-radius: 15px;
+}
