@@ -37,3 +37,53 @@
     background-color: rgb(93, 93, 255);
   }
 } */
+
+/* .btn {
+  border: 2px red solid;
+}
+
+@media (max-width: 500px) {
+  .btn {
+    border: 0;
+  }
+} */
+
+/* .container {
+  max-width: 90ch;
+  margin-inline: auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 40px;
+}
+
+.menu-container {
+  max-width: 90ch;
+  margin-inline: auto;
+}
+
+@media (max-width: 500px) {
+  .menu-container {
+    display: none;
+  }
+} */
+
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+
+@media (min-width: 500px) {
+  .box {
+    background-color: blue;
+  }
+}
