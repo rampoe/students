@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+
+@media (max-width: 600px) {
+  
+}
