@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.list {
+ list-style: none;
+ padding: 0;
+ display: flex;
+}
+
+.it {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn {
+  border: 3px #47B2E4 solid;
+  border-radius: 20px;
+  display: block;
+  padding: 10px 30px;
+  background-color: #37517E;
+  color: white;
+}
+
+.content {
+  display: flex;
+  gap: 50px;
+}
+
+@media (max-width: 900px) {
+  .content {
+    display: none;
+  }
+}
