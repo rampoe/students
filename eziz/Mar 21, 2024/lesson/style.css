@@ -16,7 +16,7 @@ body {
 
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
 
   margin: 0;
   padding: 0;
@@ -35,8 +35,7 @@ h1:hover::after {
   margin-top: 20px;
 } */
 
-
-h1 {
+/* h1 {
   color: #37517e;
 }
 
@@ -48,4 +47,26 @@ h1::after {
   display: block;
   margin-inline: auto;
   margin-top: 20px;
+} */
+
+.quote {
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Cookie", cursive;
+}
+
+.quote::after {
+  font-size: 60px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.505);
+  content: '"';
+  font-family: "Sorts Mill Goudy", serif;
+}
+
+.quote::before {
+  content: '"';
+  font-family: "Sorts Mill Goudy", serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.505);
 }
