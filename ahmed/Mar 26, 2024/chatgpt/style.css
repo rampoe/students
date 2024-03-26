@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  height: 100vh;
+}
+
+.one,
+.two,
+.three {
+  height: 50px;
+  width: 200px;
+}
+
+.one {
+  background-color: #000;
+}
+
+.two {
+  background-color: #D60000;
+}
+
+.three {
+  background-color: #F7C800;
+}
