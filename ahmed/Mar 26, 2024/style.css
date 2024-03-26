@@ -5,3 +5,79 @@
 *::after {
   box-sizing: border-box;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+/* .square {
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  transition: background-color 1000ms, width 2000ms, border-radius 1000ms;
+}
+
+.square:hover {
+  background-color: blue;
+  width: 500px;
+  border-radius: 50%;
+  cursor: pointer;
+} */
+
+/* .h1 {
+  color: red;
+}
+
+.h1::before {
+  content: "";
+  height: 10px;
+  display: block;
+  background-color: blue;
+}
+
+.h1::after {
+  content: "";
+  height: 10px;
+  display: block;
+  background-color: green;
+} */
+
+/* .container {
+  position: relative;
+}
+
+.inner-div {
+  width: 200px;
+  height: 150px;
+  display: block;
+  background-color: #D60000;
+  position: absolute;
+}
+
+.inner-div::before {
+  content: "";
+  height: 50px;
+  background-color: #000000;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.inner-div::after {
+  content: "";
+  height: 50px;
+  background-color: #F7C800;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+} */
+
