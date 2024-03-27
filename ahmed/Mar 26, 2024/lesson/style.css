@@ -1,4 +1,4 @@
-@charset "UTF-8";
+/* @charset "UTF-8";
 
 *,
 *::before,
@@ -13,7 +13,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-}
+} */
 
 /* .square {
   height: 300px;
@@ -80,4 +80,3 @@ body {
   right: 0;
   left: 0;
 } */
-

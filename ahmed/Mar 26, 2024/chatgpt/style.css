@@ -1,4 +1,12 @@
-body {
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* body {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,4 +32,4 @@ body {
 
 .three {
   background-color: #F7C800;
-}
+} */
