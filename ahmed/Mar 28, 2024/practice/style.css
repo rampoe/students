@@ -13,6 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: yellow;
 }
 
 .more {
@@ -22,5 +23,18 @@ body {
 .main {
   height: 200px;
   width: 300px;
+  background-color: white;
+  position: relative;
+}
+
+.main::after {
+  content: "";
+  height: 100px;
+  width: 300px;
   background-color: red;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
