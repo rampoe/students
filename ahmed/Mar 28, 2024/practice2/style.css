@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag {
+  background-color: #DE0808;
+  height: 270px;
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  border-radius: 100vw;
+  background-color: #fff;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  margin-right: 75px;
+}
+
+.x1 {
+  height: 130px;
+  width: 25px;
+  background-color: black;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 90px;
+  top: 35px;
+}
+
+.x2 {
+  height: 130px;
+  width: 25px;
+  background-color: black;
+  transform: rotate(-45deg);
+  left: 90px;
+  position: absolute;
+  top: 35px;
+}
+
+.i1 {
+  position: absolute;
+  background-color: black;
+  height: 70px;
+  width: 25px;
+  transform: rotate(45deg);
+  top: 8px;
+  left: 65px;
+}
+
+.i2 {
+  background-color: black;
+  position: absolute;
+  height: 70px;
+  width: 25px;
+  transform: rotate(45deg);
+  top: 120px;
+  left: 110px;
+}
+
+.i3 {
+  background-color: black;
+  height: 70px;
+  width: 25px;
+  position: absolute;
+  transform: rotate(-45deg);
+  top: 85px;
+  left: 36px;
+}
+
+.i4 {
+  background-color: black;
+  height: 70px;
+  width: 25px;
+  transform: rotate(-45deg);
+  top: 50px;
+  left: 149px;
+  position: absolute;
+}
