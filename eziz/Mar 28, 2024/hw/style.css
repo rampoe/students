@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  }
+
+.div {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  transition: transform 1000ms;
+}
+
+.div:hover {
+  transform: rotate(45deg) scale(3);
+}
