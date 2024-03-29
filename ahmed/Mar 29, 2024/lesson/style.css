@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  background-color: yellow;
+  padding: 50px 60px;
+  transition: 2000ms;
+
+  /* transform: none; */
+  /* transform: rotate(45deg); */
+  /* transform: rotate(-45deg); */
+  /* transform: rotate(2rad); */
+  /* transform: rotate(180grad); */
+  /* transform: rotate(1turn); */
+  /* transform: rotate(0.25turn); */
+}
+
+h1:hover {
+  transform: rotate(45deg);
+}
