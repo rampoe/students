@@ -19,14 +19,24 @@ h1 {
   transition: 2000ms;
 
   /* transform: none; */
+
   /* transform: rotate(45deg); */
   /* transform: rotate(-45deg); */
   /* transform: rotate(2rad); */
   /* transform: rotate(180grad); */
   /* transform: rotate(1turn); */
   /* transform: rotate(0.25turn); */
+
+  /* transform: scale(2); */
 }
 
 h1:hover {
-  transform: rotate(45deg);
+  /* transform: rotate(45deg); */
+
+  /* transform: scale(2); */
+  /* transform: scale(2, 7); */
+
+  /* transform: translate(50px, 70px); */
+
+  transform: skew(20deg, 20deg);
 }
