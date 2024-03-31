@@ -6,11 +6,15 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 h1 {
@@ -38,5 +42,5 @@ h1:hover {
 
   /* transform: translate(50px, 70px); */
 
-  /* transform: skew(20deg, 20deg); */
+  transform: skew(20deg, 20deg);
 }
