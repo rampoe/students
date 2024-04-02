@@ -5,3 +5,44 @@
 *::after {
   box-sizing: border-box;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+/* .transition-btn {
+  transition: 1000ms;
+}
+
+.transition-btn:hover {
+  transform: scale(2);
+} */
+
+@keyframes my-first-animation {
+  from {
+    background-color: red;
+  }
+
+  to {
+    background-color: blue;
+  }
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+
+  /* animation: my-first-animation 2s 1s infinite alternate forwards; */
+
+  /* animation-name: my-first-animation;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards; */
+}
