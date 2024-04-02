@@ -11,6 +11,9 @@ body {
   height: 100vh;
   margin: 0;
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @keyframes meninBirinjiAnimasiyam {
@@ -55,13 +58,45 @@ body {
   } */
 }
 
-.square {
+/* .square {
   height: 100px;
   width: 100px;
   background-color: red;
+  animation: meninBirinjiAnimasiyam 1s forwards;
+} */
+
+/* .square:hover {
+  animation-delay: 5s;
+} */
+
+@keyframes ady-gorkez {
+  from {
+    transform: scaleY(0);
+  }
+
+  to {
+    transform: scaleY(1);
+  }
 }
 
-.square:hover {
-  animation: meninBirinjiAnimasiyam 1s infinite alternate;
-  animation-delay: 5s;
+h1 {
+  font-size: 50px;
+}
+
+h1 > * {
+  transform: scaleY(0);
+  animation: ady-gorkez 1s forwards;
+  display: inline-block;
+}
+
+.s1 {
+  animation-delay: 0.5s;
+}
+
+.s2 {
+  animation-delay: 1s;
+}
+
+.s3 {
+  animation-delay: 1.5s;
 }
