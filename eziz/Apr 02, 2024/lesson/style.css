@@ -5,3 +5,26 @@
 *::after {
   box-sizing: border-box;
 }
+
+.square {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+
+  /* transform: translate(30px); */
+  /* transform: translate(30px, 50px); */
+
+  /* transform: translateX(60px); */
+  /* transform: translateY(100px); */
+
+  /* transform: translateY(50px); */
+
+  /* position: relative;
+  top: 40px; */
+}
+
+.square2 {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+}
