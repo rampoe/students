@@ -85,11 +85,11 @@ body {
 .body {
   margin: auto;
   margin-top: 200px;
-  animation: 0.4s ahmed infinite alternate;
+  animation: ahmed 0.4s infinite alternate;
 }
 
 .body:hover {
-  animation: 800ms bigPulse infinite forwards;
+  animation: 800ms bigPulse infinite forwards bot;
 }
 
 .heart {
