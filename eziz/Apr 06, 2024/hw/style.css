@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@keyframes eziz {
+  0% {
+    transform: scale(2);
+  }
+}
+
+div {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+
+div:hover {
+  animation: eziz 500ms infinite alternate;
+}
