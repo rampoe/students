@@ -5,3 +5,17 @@
 *::after {
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 85ch;
+  margin-inline: auto;
+}
+
+p {
+  line-height: 1.2;
+  font-size: 20px;
+}
