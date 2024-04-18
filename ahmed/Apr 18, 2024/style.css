@@ -1,0 +1,186 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color:   rgb(0, 247, 255);
+    
+}
+
+
+
+.n4 {
+    position: fixed;
+    top: -10px;
+    left: 615px;
+
+}
+
+.dots {
+    position: fixed;
+    width: 115px;
+    left: 935px;
+    top: 15px;
+}
+
+.n1 {
+    width: 310px;
+    position: fixed;
+    top: -40px;
+    left: 1070px;
+    
+}
+
+.PSG {
+    background-repeat: no-repeat;
+    background-color: white ;
+    position: fixed;
+    left:300px;
+    top: 10px;
+}
+
+.VAR {
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 200px;
+    position: absolute;
+
+    right: 400px;
+    top: 20px;
+}
+
+.grass {
+    height: 30px;
+    position: fixed;
+    bottom: 0px;
+    width: 2000px;
+    background-color: greenyellow;
+}
+
+
+
+.wall {
+    height: 400px;
+    width: 15px;
+    background-color: white;
+    position: fixed;
+    bottom: 30px;
+    right: 250px;
+
+}
+
+.wall1 {
+    height: 250px;
+    background-color: white;
+    width: 15px;
+    position: fixed;
+    bottom: 280px;
+    right: 140px;
+    transform: rotate(105deg);
+
+}
+
+.wall2 {
+    height: 350px;
+    width: 27px;
+    background-color: white;
+    position: fixed;
+    bottom: 30px;
+    right: 0;
+
+}
+
+.bz1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: fixed;
+    right: 510px;
+    top: 50px;
+    background-color: white;
+}
+
+.be1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    position: fixed;
+    right: 525px;
+    top:80px;
+    background-color: black;
+}
+
+.bw1 {
+    width: 20px;
+    height: 40px;
+    border-radius: 25%;
+    position: fixed;
+    right: 525px;
+    top: 95px;
+    background-color: blue;
+}
+
+.bz2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: fixed;
+    right: 440px;
+    top: 50px;
+    background-color: white;
+}
+
+.be2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    position: fixed;
+    right: 455px;
+    top:80px;
+    background-color: black;
+}
+
+.bw2 {
+    width: 20px;
+    height: 90px;
+    border-radius: 25%;
+    position: fixed;
+    right: 455px;
+    top: 95px;
+    background-color: blue;
+}
+
+
+.ball {
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 30px;
+    left: 1000px;
+    background-color: white;
+    animation:  400ms goal  alternate forwards;
+}
+
+@keyframes goal {
+    0% {
+        bottom: 30px;
+        left: 300px;
+    }
+    35% {
+        bottom: 360px;
+        left: 1650px;
+    }
+    50% {
+        bottom: 190px;
+        left: 1835px;
+    }
+    75% {
+        bottom: 30px;
+        left: 1600px;
+    }
+    100% {
+        bottom: 30px;
+        left: 1000px;
+    }
+}
