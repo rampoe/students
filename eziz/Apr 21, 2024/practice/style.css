@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.tanysmak {
+  background-color: #47B2E4;
+  color: white;
+}
+.tanysmak:hover {
+  color: white;
+  background-color: #388db5;
+}
+
+.hero-photo {
+  width: 100%;
+}
+
+.background {
+  background-color: #37517E;
+  color: white;
+}
+
+.hat {
+  color: #afb9cb;
+}
