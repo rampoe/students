@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.it {
+  color: white;
+  border: 2px none black;
+  border-radius: 20px;
+  background-color: #47B2E4;
+  padding: 10px 25px;
+  transition: background-color 500ms;
+}
+.it:hover {
+  background-color: #3c98c2;
+}
+
+.back {
+  background-color: #37517E;
+  padding: 100px;
+}
+
+.bg {
+  color: white;
+}
+
+.video {
+  color: white;
+  background-color: #37517E;
+  border: none;
+}
+
+p {
+  font-size: 22px;
+  color: #ABB4C9;
+}
