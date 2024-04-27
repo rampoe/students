@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/bg.png");
+}
+
+.bg-brown {
+  background-color: #6F4E37;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.sakofe {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  color: #6F4E37;
+}
+
+.baha {
+  color: #6F4E37;
+}
+
+.wagty {
+  background-color: rgba(133, 135, 150, 0.75);
+  color: white;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  padding-right: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-left: 5px;
+}
+
+.card {
+  width: 17rem;
+}
+
+.right {
+  background-color: rgba(133, 135, 150, 0.75);
+  color: white;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  padding-right: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-left: 5px;
+  z-index: 9999;
+
+}
+
+.left {
+  background-color: rgba(133, 135, 150, 0.75);
+  color: white;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  padding-inline: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 9999;
+}
+
+.my-img {
+  transition: 0.5s ease-in-out;
+  position: relative;
+  z-index: -1;
+}
+
+.my-img:hover {
+  transform: scale(1.2);
+  /* width: 250px; */
+}
