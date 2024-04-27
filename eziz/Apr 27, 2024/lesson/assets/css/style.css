@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.birinji-carousel {
+  width: 50%;
+}
