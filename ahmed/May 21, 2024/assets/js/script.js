@@ -1,5 +1,5 @@
 "use strict";
 
-let isChild = confirm("Дядь, а ты точно маленький?");
+let name = prompt("What's your name");
 
-alert(isChild);
+alert(`Hello ${name}`);
