@@ -20,5 +20,32 @@
 // if (num % 2 == 0) {
 //   alert("Congratulations France won the world cup");
 // } else {
-//   alert("Portugal won the world cup");
+//  alert("Portugal won the world cup");
 // }
+
+// if (0) {
+//   alert("I am Elon Musk");
+// }
+
+// let cash = +prompt("How much money do you have?");
+// let flag = cash > 1000000;
+// if (flag) {
+//   alert("You are a millionare");
+// } else {
+//   alert("You are poor");
+// }
+
+// let age = parseInt(prompt("Enter your age: "));
+
+// if (age < 0) {
+//   alert("You are lying! It's impossible...");
+// } else if (age < 18) {
+//   alert("You are a baby. You can't use this website.");
+// } else if (age < 60) {
+//   alert("You are allowed to use this website.");
+// } else if (age < 120) {
+//   alert("You are too old to use this website.");
+// } else {
+//   alert("Ну если у вас такой возраст, вы давно умерли!");
+// }
+
