@@ -48,3 +48,10 @@
 // } else {
 //   alert("Ну если у вас такой возраст, вы давно умерли!");
 // }
+
+// let a = +prompt("A = ");
+// let b = +prompt("B = ");
+// let c = +prompt("C = ");
+
+// alert(`V = ${a * b * c}`);
+// alert(`S = ${2 * (a * b + a * c + b * c)}`);

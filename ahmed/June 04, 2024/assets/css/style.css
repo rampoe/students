@@ -5,3 +5,23 @@
 *::after {
   box-sizing: border-box;
 }
+
+body {
+  background-color: rgb(40,42,54);
+}
+
+pre {
+  color: white;
+  font-size: 30px;
+}
+
+.pink {
+  color: purple;
+}
+.blue {
+  color: lightskyblue
+}
+.yellow {
+  color: yellow;
+}
+.purple{color: pink;}
