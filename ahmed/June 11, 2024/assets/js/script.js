@@ -29,3 +29,28 @@
 //   console.log(i);
 // }
 
+// let n = +prompt("N=");
+// let k = +prompt("K=");
+// for (let i = 0; i < n; i++) {
+//   console.log(k);
+// }
+
+// let n = +prompt("N=");
+// let k = +prompt("K=");
+// for (n; n > 0; n--) {
+//   console.log(k);
+// }
+
+// let n = +prompt("N=");
+// let k = +prompt("K=");
+// while (n > 0) {
+//   console.log(k);
+//   n--;
+// }
+
+let n = +prompt("N=");
+let k = +prompt("K=");
+do {
+  console.log(k);
+  n--;
+} while (n > 0);
