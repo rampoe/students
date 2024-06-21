@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* html,
+body {
+  height: 100%;
+} */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-size: 40px;
+  font-weight: 700;
+}
