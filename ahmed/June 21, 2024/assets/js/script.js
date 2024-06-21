@@ -31,22 +31,62 @@
 // }
 // one();
 
-let outer_var;
-let inner_var;
+// let outer_var;
+// let inner_var;
+// function outer() {
+//   outer_var = 0;
+//   function inner() {
+//     inner_var = 1;
+//   }
+//   inner();
+// }
+// outer();
+// alert(outer_var);
+// alert(inner_var);
 
-function outer() {
+// function sayHi() {
+//   alert("Hello World!");
+// }
+// sayHi();
 
-  outer_var = 0;
+// let sayHi = () => alert("Hello World!");
+// sayHi();
 
-  function inner() {
-    inner_var = 1;
-  }
+// let a = +prompt("A=");
+// let b = +prompt("B=");
+// let addTwoNumbers = () => alert(a + b);
+// addTwoNumbers();
 
-  inner();
+// function sayHiToUser(userName) {
+//   alert(`Hello ${userName}!`);
+// }
+// let firstName = prompt("What is your name?", "");
+// sayHiToUser(firstName);
 
-}
-
-outer();
-
-alert(outer_var);
-alert(inner_var);
+// function add(num1, num2) {
+//   alert(num1 + num2);
+// }
+// function sub(num1, num2) {
+//   alert(num1 - num2);
+// }
+// function mul(num1, num2) {
+//   alert(num1 * num2);
+// }
+// function div(num1, num2) {
+//   alert(num1 / num2);
+// }
+// let a = +prompt("num1=");
+// let b = +prompt("num2=");
+// let operation = prompt("operation:");
+// if (operation == "+") {
+//   add(a, b);
+// }
+// if (operation == "-") {
+//   sub(a, b);
+// }
+// if (operation == "*") {
+//   mul(a, b);
+// }
+// if (operation == "/") {
+//   div(a, b);
+// }
