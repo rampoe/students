@@ -8,3 +8,9 @@ let genius = {
   iq: 160,
   isRich: true,
 };
+
+// // Способы создания объектов
+// let obj = new Object();
+// let obj2 = {};
+
+ alert(genius.firstName)
