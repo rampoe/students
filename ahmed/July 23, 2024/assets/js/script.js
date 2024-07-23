@@ -53,6 +53,8 @@
 // }
 // alert(dontScream(scream));
 
-let firstName = "Ahmed";
+let firstName = "ahmed";
 
-alert
+// alert(firstName[0]);
+
+alert(firstName[0].toUpperCase() + "hmed");
