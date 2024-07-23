@@ -53,3 +53,6 @@
 // }
 // alert(dontScream(scream));
 
+let firstName = "Ahmed";
+
+alert
