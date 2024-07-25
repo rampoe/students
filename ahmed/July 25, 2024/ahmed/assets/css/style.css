@@ -53,7 +53,15 @@ body {
   position: fixed;
   top: 270px;
   left: 200px;
+  /* border-color: black;
+  border-width: 2px;
+  border-style: solid; */
 
+  border: 2px solid black;
+  padding: 40px 20px;
+border-radius: 20px;
+
+text-align: center;
 }
 .foto2{
   position: fixed;
