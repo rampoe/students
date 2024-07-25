@@ -1,7 +1,67 @@
-@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color:white;
+}
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+.div1 {
+  background-color:navajowhite;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  padding-left: 40%;
+  justify-content: space-evenly;
+  
+  
+}
+
+.mblema {
+  color:rgb(95, 64, 24);
+  gap: 20px;
+  position: fixed;
+  left: 100px;
+
+  
+  
+
+}
+.poddiv1 {
+
+  position: fixed;
+  left: 300px;
+  top: 30px;
+  
+}
+.bi-telephone{
+  color: black;
+  padding-right:35px ;
+  width: 20px;
+}
+.bi-instagram{
+  color: black;
+  padding-right: 35px;
+  width: 20px;
+
+}
+.bi-geo-alt{
+  color: black;
+  width: 20px;
+}
+
+.foto1{
+  position: fixed;
+  top: 270px;
+  left: 200px;
+
+}
+.foto2{
+  position: fixed;
+  top: 220px;
+  left: 700px;
+
+}
+
+.Nefr{
+  height: 255px;
 }
