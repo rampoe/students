@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #212226;
+  color: white;
+}
