@@ -6,7 +6,45 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 header {
   background-color: #212226;
   color: white;
+  padding: 20px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  font-size: 25px;
+}
+
+a {
+  color: inherit;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.bottom-nav {
+  background-color: #cff250;
+  color: rgb(59, 59, 59);
+  padding-block: 20px;
+}
+
+.bottom-nav > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 700;
 }
