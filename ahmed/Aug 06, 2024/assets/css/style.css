@@ -5,3 +5,13 @@
 *::after {
   box-sizing: border-box;
 }
+
+/* img {
+  display: none;
+} */
+
+.show {
+  transform: scaleY(0);
+  transition: transform 1s ease-in-out;
+  transform-origin: top;
+}
