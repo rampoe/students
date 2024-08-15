@@ -1,7 +1,12 @@
 @charset "UTF-8";
 
-*,
-*::before,
-*::after {
+ *,
+ *::before,
+ *::after{
   box-sizing: border-box;
 }
+
+/* .btn {
+  width: 100px;
+  height: 100px;
+} */
