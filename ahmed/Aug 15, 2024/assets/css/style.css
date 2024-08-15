@@ -5,3 +5,60 @@
 *::after {
   box-sizing: border-box;
 }
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+background: rgb(13,0,36);
+background: linear-gradient(141deg, rgba(13,0,36,1) 0%, rgba(50,9,121,1) 35%, rgba(149,0,255,1) 100%);
+}
+
+button {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(93, 79, 181);
+  color: white;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+button:hover{
+  background-color:rgb(76, 65, 145);;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.container {
+  width: auto;
+}
+
+.input-field {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(116, 20, 184);
+  margin-bottom: 30px;
+  border-radius: 3px;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-inline: 10px;
+}

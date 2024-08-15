@@ -1,8 +1,20 @@
 "use strict";
 
-// let body = document.querySelector("body");
-// let btn = document.querySelector("#btn");
-// btn.addEventListener("click", () => {
-//   body.style.backgroundColor = "red";
-// });
+let inputField = document.querySelector("#inputField");
+let numButton = document.querySelectorAll(".num-btn");
 
+for (let i = 0; i < numButton.length; i++) {
+  numButton[i].addEventListener("click", () => {
+    inputField.innerHTML += numButton[i].innerHTML;
+  })
+}
+
+let eqBtn = document.querySelector("#eq");
+eqBtn.addEventListener("click", () => {
+  inputField.innerHTML = eval(inputField.innerHTML);
+});
+
+let cleanBtn = document.querySelector("#cleanBtn");
+cleanBtn.addEventListener("click", () => {
+  inputField.innerHTML = "";
+});
