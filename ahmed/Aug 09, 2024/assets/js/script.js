@@ -9,20 +9,6 @@
 // btn.addEventListener("click", function() {});
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // let c = 0;
 // let btn =document.querySelector("#btn");
 // btn.addEventListener("click", () => {
@@ -50,10 +36,10 @@
 
 
 
-let btn = document.querySelector("#btn");
-let counter = 0;
+// let btn = document.querySelector("#btn");
+// let counter = 0;
 
-btn.addEventListener("click", () => {
-  btn.innerHTML = counter;
-  counter++;
-})
+// btn.addEventListener("click", () => {
+//   btn.innerHTML = counter;
+//   counter++;
+// })
