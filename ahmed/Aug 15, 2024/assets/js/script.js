@@ -5,4 +5,3 @@
 // btn.addEventListener("click", () => {
 //   body.style.backgroundColor = "red";
 // });
-
