@@ -3,7 +3,7 @@
 let btn = document.querySelector("#btn"),
     text = document.querySelector("#text");
 
-btn.addEventListener("click", () => {
+// btn.addEventListener("click", () => {
   // text.classList.add("red");
 
   // if (text.style.color === "red") {
@@ -18,5 +18,11 @@ btn.addEventListener("click", () => {
   //   text.classList.add("red");
   // }
 
-  text.classList.toggle("red");
-});
+  // text.classList.toggle("red");
+// });
+
+// function hp(){
+//   text.classList.toggle("red");
+// };
+// btn.addEventListener("click", hp);
+
